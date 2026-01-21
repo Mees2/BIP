@@ -3,14 +3,13 @@ from torchvision import transforms
 
 def get_train_transform():
     """
-    This function returns the transforms to apply to training images.
-    Includes aggressive data augmentation for better generalization on small datasets.
-    
+    Improved data augmentation for training images.
+    Includes RandomResizedCrop and RandomErasing for better generalization.
     Returns:
         transform: torchvision.transforms.Compose object
     """
     return transforms.Compose([
-        transforms.Resize((224, 224)),
+        transforms.RandomResizedCrop((224, 224), scale=(0.8, 1.0)),
         transforms.RandomHorizontalFlip(p=0.5),
         transforms.RandomVerticalFlip(p=0.3),
         transforms.RandomRotation(degrees=30),
@@ -21,7 +20,8 @@ def get_train_transform():
         transforms.Normalize(
             mean=[0.485, 0.456, 0.406],
             std=[0.229, 0.224, 0.225]
-        )
+        ),
+        transforms.RandomErasing(p=0.3, scale=(0.02, 0.2), ratio=(0.3, 3.3)),
     ])
 
 
