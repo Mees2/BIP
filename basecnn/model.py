@@ -5,28 +5,25 @@ from torchvision import models
 
 def get_model(num_classes=2):
     """
-    This function returns your model architecture for glaucoma detection.
+    This function returns your model architecture for glaucoma detection using EfficientNet V2.
     
     Args:
-        num_classes (int): Number of output classes (2 for binary classification:
-                          glaucoma vs normal)
-    
+        num_classes (int): Number of output classes (2 for binary classification: glaucoma vs normal)
     Returns:
-        model: Your PyTorch model (ResNet50 with custom classifier head)
+        model: Your PyTorch model (EfficientNet V2 with custom classifier head)
     """
-    # Load pre-trained ResNet50
-    model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
-    
-    # Unfreeze layer2 and deeper for better fine-tuning
-    for param in model.layer1.parameters():
+    # Load pre-trained EfficientNet V2 Small
+    model = models.efficientnet_v2_s(weights=models.EfficientNet_V2_S_Weights.IMAGENET1K_V1)
+
+    # Optionally freeze some layers (here, freeze the feature extractor)
+    for param in model.features.parameters():
         param.requires_grad = False
-    # Allow layer2, layer3, layer4 to train for better adaptation
-    
+
     # Get the number of input features for the classifier
-    in_features = model.fc.in_features
-    
+    in_features = model.classifier[1].in_features
+
     # Replace the classifier head with custom layers
-    model.fc = nn.Sequential(
+    model.classifier = nn.Sequential(
         nn.Linear(in_features, 512),
         nn.ReLU(),
         nn.BatchNorm1d(512),
@@ -40,5 +37,5 @@ def get_model(num_classes=2):
         nn.Dropout(0.2),
         nn.Linear(128, num_classes)  # Output layer
     )
-    
+
     return model

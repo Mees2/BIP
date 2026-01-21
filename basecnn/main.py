@@ -61,11 +61,11 @@ print(f'Class weights: {class_weights.cpu().numpy()}')
 
 # Loss function and optimizer
 criterion = nn.CrossEntropyLoss(weight=class_weights)
-optimizer = optim.Adam(model.parameters(), lr=0.0005, weight_decay=1e-4)
+optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4)
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3)
 
 # Training loop
-num_epochs = 30
+num_epochs = 20
 print(f'Starting training for {num_epochs} epochs...')
 
 best_f1 = 0
