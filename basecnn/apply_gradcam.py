@@ -8,6 +8,11 @@ import os
 from model import get_model
 from transforms import get_test_transform
 from gradcam import GradCAM
+from torch.utils.data import DataLoader
+from torchvision import datasets
+from sklearn.metrics import (accuracy_score, precision_score, recall_score, 
+                             f1_score, roc_auc_score, balanced_accuracy_score,
+                             confusion_matrix)
 
 # Device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -24,12 +29,65 @@ model.load_state_dict(torch.load(str(model_path), map_location=device))
 model = model.to(device)
 model.eval()
 
+# Get test transform
+transform = get_test_transform()
+
+# Load test dataset
+test_data_dir = script_dir / 'data' / 'test'
+test_dataset = datasets.ImageFolder(str(test_data_dir), transform=transform)
+test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
+
+# Evaluate on test set
+print('\n' + '='*60)
+print('Evaluating Model on Test Set')
+print('='*60)
+
+all_preds = []
+all_labels = []
+all_probs = []
+
+with torch.no_grad():
+    for images, labels in test_loader:
+        images = images.to(device)
+        labels = labels.to(device)
+        
+        outputs = model(images)
+        probs = torch.softmax(outputs, dim=1)
+        _, predicted = torch.max(outputs.data, 1)
+        
+        all_preds.extend(predicted.cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
+        all_probs.extend(probs[:, 1].cpu().numpy())
+
+all_preds = np.array(all_preds)
+all_labels = np.array(all_labels)
+all_probs = np.array(all_probs)
+
+# Calculate metrics
+accuracy = accuracy_score(all_labels, all_preds)
+balanced_accuracy = balanced_accuracy_score(all_labels, all_preds)
+precision = precision_score(all_labels, all_preds, zero_division=0)
+recall = recall_score(all_labels, all_preds, zero_division=0)
+f1 = f1_score(all_labels, all_preds, zero_division=0)
+auc_roc = roc_auc_score(all_labels, all_probs)
+
+# Calculate specificity
+tn, fp, fn, tp = confusion_matrix(all_labels, all_preds).ravel()
+specificity = tn / (tn + fp) if (tn + fp) > 0 else 0
+
+# Print metrics
+print(f'Accuracy: {accuracy:.4f}')
+print(f'Balanced Accuracy: {balanced_accuracy:.4f}')
+print(f'Precision: {precision:.4f}')
+print(f'Recall (Sensitivity): {recall:.4f}')
+print(f'Specificity: {specificity:.4f}')
+print(f'F1 Score: {f1:.4f}')
+print(f'AUC-ROC: {auc_roc:.4f}')
+print('='*60 + '\n')
+
 # Initialize GradCAM
 print('Initializing GradCAM...')
 gradcam = GradCAM(model, target_layer=model.layer4)
-
-# Get test transform
-transform = get_test_transform()
 
 # Class names
 class_names = ['normal', 'glaucoma']

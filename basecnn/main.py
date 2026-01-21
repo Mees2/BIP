@@ -115,14 +115,14 @@ for epoch in range(num_epochs):
     # Update learning rate based on F1 score
     scheduler.step(epoch_f1)
 
-# Evaluate the model on training data
+# Evaluate the model on test data
 model.eval()
 all_preds = []
 all_labels = []
 all_probs = []
 
 with torch.no_grad():
-    for images, labels in train_loader:
+    for images, labels in test_loader:
         images = images.to(device)
         labels = labels.to(device)
         
@@ -152,7 +152,7 @@ specificity = tn / (tn + fp) if (tn + fp) > 0 else 0
 
 # Print metrics
 print('\n' + '='*50)
-print('Training Set Metrics')
+print('Test Set Metrics')
 print('='*50)
 print(f'Accuracy: {accuracy:.4f}')
 print(f'Balanced Accuracy: {balanced_accuracy:.4f}')
