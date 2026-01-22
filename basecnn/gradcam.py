@@ -4,6 +4,15 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 from matplotlib import cm
+def flip_prediction(pred):
+    """
+    Flip the prediction index for correct class naming.
+    Args:
+        pred: Original prediction index (0 or 1)
+    Returns:
+        flipped_pred: Flipped prediction index
+    """
+    return 1 - pred
 
 
 class GradCAM:
@@ -126,7 +135,7 @@ class GradCAM:
         
         # Overlay
         axes[2].imshow(overlay)
-        axes[2].set_title(f'Overlay (Predicted: {class_names[pred_class]})')
+        axes[2].set_title(f'Overlay (Predicted: {class_names[flip_prediction(pred_class)]})')
         axes[2].axis('off')
         
         plt.tight_layout()

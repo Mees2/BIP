@@ -6,8 +6,9 @@ from pathlib import Path
 import random
 import os
 from model import get_model
-from transforms import get_test_transform
+from transforms import get_test_transform, get_train_transform
 from gradcam import GradCAM
+from surrogate_model import SurrogateModel
 from torch.utils.data import DataLoader
 from torchvision import datasets
 from sklearn.metrics import (accuracy_score, precision_score, recall_score, 
@@ -89,6 +90,17 @@ print('='*60 + '\n')
 print('Initializing GradCAM...')
 gradcam = GradCAM(model, target_layer=model.layer4)
 
+# Initialize Surrogate Model for Explanations
+print('Initializing Surrogate Model for Explanations...')
+surrogate_model = SurrogateModel(model, device, surrogate_type='tree')
+
+# Load training data to train surrogate
+print('Training Surrogate Model...')
+train_data_dir = script_dir / 'data' / 'train'
+train_dataset = datasets.ImageFolder(str(train_data_dir), transform=get_train_transform())
+train_loader = DataLoader(train_dataset, batch_size=32, shuffle=False)
+surrogate_model.train(train_loader, max_depth=12)
+
 # Class names
 class_names = ['normal', 'glaucoma']
 
@@ -133,6 +145,10 @@ for i, image_path in enumerate(glaucoma_images, 1):
     
     print(f'Predicted: {class_names[pred_class]} (Confidence: {confidence:.4f})')
     
+    # Get surrogate model explanation
+    surrogate_result = surrogate_model.predict(str(image_path), class_names)
+    print(f'Surrogate Model Agrees: {surrogate_result["agreement"]}')
+    
     # Visualize
     save_path = f'gradcam_glaucoma_{i}.png'
     gradcam.visualize(
@@ -141,7 +157,11 @@ for i, image_path in enumerate(glaucoma_images, 1):
         class_names=class_names,
         save_path=save_path
     )
-    print(f'Saved to: {save_path}')
+    print(f'Saved GradCAM to: {save_path}')
+    
+    # Print explanation
+    print("\n--- MEDICAL EXPLANATION ---")
+    print(surrogate_result['explanation'])
 
 # Visualize some normal cases
 print('\n' + '='*60)
@@ -168,6 +188,10 @@ for i, image_path in enumerate(normal_images, 1):
     
     print(f'Predicted: {class_names[pred_class]} (Confidence: {confidence:.4f})')
     
+    # Get surrogate model explanation
+    surrogate_result = surrogate_model.predict(str(image_path), class_names)
+    print(f'Surrogate Model Agrees: {surrogate_result["agreement"]}')
+    
     # Visualize
     save_path = f'gradcam_normal_{i}.png'
     gradcam.visualize(
@@ -176,7 +200,11 @@ for i, image_path in enumerate(normal_images, 1):
         class_names=class_names,
         save_path=save_path
     )
-    print(f'Saved to: {save_path}')
+    print(f'Saved GradCAM to: {save_path}')
+    
+    # Print explanation
+    print("\n--- MEDICAL EXPLANATION ---")
+    print(surrogate_result['explanation'])
 
 print('\n' + '='*60)
 print('GradCAM visualizations complete!')
