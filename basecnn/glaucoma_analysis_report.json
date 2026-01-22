@@ -1,0 +1,1146 @@
+[
+  {
+    "status": "success",
+    "image_filename": "r1_Im117.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "64.5%",
+      "confidence_level": "MODERATE",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "35.5%"
+    },
+    "confidence_assessment": "The model is reasonably confident, but some uncertainty exists.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 65%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r1_Im167.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "59.8%",
+      "confidence_level": "LOW",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "40.2%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Possible glaucoma indicators. Additional testing and expert review recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 60%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im277.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "75.0%",
+      "confidence_level": "HIGH",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "25.0%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Likely glaucoma findings. Recommend comprehensive ophthalmic evaluation.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 75%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im287.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "75.8%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "24.2%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 76%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im314.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "64.9%",
+      "confidence_level": "MODERATE",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "35.1%"
+    },
+    "confidence_assessment": "The model is reasonably confident, but some uncertainty exists.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 65%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im317.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "60.1%",
+      "confidence_level": "MODERATE",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "39.9%"
+    },
+    "confidence_assessment": "The model is reasonably confident, but some uncertainty exists.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Possible glaucoma indicators. Additional testing and expert review recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 60%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im319.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "95.6%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "4.4%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 96%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im324.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "76.8%",
+      "confidence_level": "HIGH",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "23.2%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Likely glaucoma findings. Recommend comprehensive ophthalmic evaluation.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 77%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im332.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "56.5%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "43.5%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 57%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im334.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "58.6%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "41.4%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 59%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im347.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "89.0%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "11.0%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 89%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im351.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "72.7%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "27.3%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 73%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im356.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "93.7%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "6.3%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 94%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im362.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "84.2%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "15.8%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 84%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im385.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "85.6%",
+      "confidence_level": "HIGH",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "14.4%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Strong evidence of glaucoma. Consider further diagnostic testing and specialist referral.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 86%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im391.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "56.2%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "43.8%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 56%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im393.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "89.7%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "10.3%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 90%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im401.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "64.0%",
+      "confidence_level": "MODERATE",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "36.0%"
+    },
+    "confidence_assessment": "The model is reasonably confident, but some uncertainty exists.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 64%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im402.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "54.7%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "45.3%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 55%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im403.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "58.6%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "41.4%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 59%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im404.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "52.7%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "47.3%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 53%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im407.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "88.4%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "11.6%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 88%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im408.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "56.7%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "43.3%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "No",
+    "model_consistency": {
+      "status": "LOW",
+      "message": "The CNN and surrogate models disagree, and confidence is low. Careful review recommended."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 57%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im414.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "77.2%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "22.8%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 77%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im415.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "81.2%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "18.8%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 81%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im416.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "82.9%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "17.1%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 83%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im422.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "91.4%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "8.6%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 91%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im439.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "94.0%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "6.0%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 94%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im441.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "70.5%",
+      "confidence_level": "HIGH",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "29.5%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Likely glaucoma findings. Recommend comprehensive ophthalmic evaluation.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 70%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im442.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "60.6%",
+      "confidence_level": "MODERATE",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "39.4%"
+    },
+    "confidence_assessment": "The model is reasonably confident, but some uncertainty exists.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 61%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im444.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "96.3%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "3.7%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 96%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im445.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "92.7%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "7.3%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 93%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im450.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "90.4%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "9.6%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 90%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im453.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "73.2%",
+      "confidence_level": "HIGH",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "26.8%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Likely glaucoma findings. Recommend comprehensive ophthalmic evaluation.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 73%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r2_Im454.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "94.4%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "5.6%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 94%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-1-L_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "92.4%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "7.6%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 92%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-10-L_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "57.9%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "42.1%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 58%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-11-R_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "74.6%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "25.4%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 75%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-13-R_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "86.9%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "13.1%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 87%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-22-L_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "92.3%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "7.7%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 92%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-23-R_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "86.7%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "13.3%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 87%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-30-L_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "73.7%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "26.3%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No obvious glaucoma findings. Follow standard clinical guidelines for screening.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 74%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-33-R_left_half.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "58.5%",
+      "confidence_level": "LOW",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "41.5%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Possible glaucoma indicators. Additional testing and expert review recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 59%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-34-L_left_half.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "50.8%",
+      "confidence_level": "LOW",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "49.2%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Possible glaucoma indicators. Additional testing and expert review recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 51%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-35-R_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "90.5%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "9.5%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 90%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_G-9-R_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "94.1%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "5.9%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 94%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_S-1-L_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "92.1%",
+      "confidence_level": "HIGH",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "7.9%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "No significant glaucoma indicators detected. Routine monitoring may be appropriate.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 92%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_S-10-R_left_half.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "55.8%",
+      "confidence_level": "LOW",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "44.2%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Possible glaucoma indicators. Additional testing and expert review recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 56%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_S-11-L_left_half.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "83.1%",
+      "confidence_level": "HIGH",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "16.9%"
+    },
+    "confidence_assessment": "The model is very confident in this prediction.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Likely glaucoma findings. Recommend comprehensive ophthalmic evaluation.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 83%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_S-21-R_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "64.5%",
+      "confidence_level": "MODERATE",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "35.5%"
+    },
+    "confidence_assessment": "The model is reasonably confident, but some uncertainty exists.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 64%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_S-26-R_left_half.png",
+    "primary_prediction": {
+      "class": "glaucoma",
+      "confidence": "55.0%",
+      "confidence_level": "LOW",
+      "description": "Indicators of glaucoma detected. Signs may include optic nerve head changes, cup-to-disc ratio alterations, or other glaucomatous features."
+    },
+    "alternative_finding": {
+      "class": "normal",
+      "confidence": "45.0%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "Yes",
+    "model_consistency": {
+      "status": "HIGH",
+      "message": "Both CNN and surrogate model agree on this prediction."
+    },
+    "clinical_recommendation": "Possible glaucoma indicators. Additional testing and expert review recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: GLAUCOMA\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 55%\nThis indicates the model's certainty in its assessment."
+  },
+  {
+    "status": "success",
+    "image_filename": "r3_S-9-L_left_half.png",
+    "primary_prediction": {
+      "class": "normal",
+      "confidence": "50.9%",
+      "confidence_level": "LOW",
+      "description": "No signs of glaucoma detected. The optic nerve head and retinal structures appear healthy."
+    },
+    "alternative_finding": {
+      "class": "glaucoma",
+      "confidence": "49.1%"
+    },
+    "confidence_assessment": "The model has low confidence. Additional review is recommended.",
+    "agreement_with_surrogate": "No",
+    "model_consistency": {
+      "status": "LOW",
+      "message": "The CNN and surrogate models disagree, and confidence is low. Careful review recommended."
+    },
+    "clinical_recommendation": "Borderline findings. Clinical correlation and additional testing recommended.",
+    "explanation_summary": "The AI system analyzed the retinal image and predicted: NORMAL\n\nKey Features Analyzed:\n- Optic disc morphology and size\n- Cup-to-disc ratio\n- Retinal nerve fiber layer (RNFL) integrity\n- Neuroretinal rim characteristics\n- Blood vessel patterns\n\nConfidence Level: 51%\nThis indicates the model's certainty in its assessment."
+  }
+]
